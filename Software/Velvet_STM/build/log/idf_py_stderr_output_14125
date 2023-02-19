@@ -1,0 +1,14 @@
+fatal: detected dubious ownership in repository at '/home/esp/espressif/esp-idf'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/esp/espressif/esp-idf
+Compiler supported targets: xtensa-esp32-elf
+
+fatal: detected dubious ownership in repository at '/home/esp/espressif/esp-idf'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/esp/espressif/esp-idf
+fatal: detected dubious ownership in repository at '/home/esp/espressif/esp-idf/components/openthread/openthread'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/esp/espressif/esp-idf/components/openthread/openthread

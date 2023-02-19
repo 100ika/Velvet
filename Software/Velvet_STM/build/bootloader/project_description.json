@@ -1,0 +1,26 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "/home/esp/espressif/esp-idf/components/bootloader/subproject",
+    "build_dir":          "/home/esp/FreeRTOS_Event_Groups/build/bootloader",
+    "config_file":        "/home/esp/FreeRTOS_Event_Groups/sdkconfig",
+    "config_defaults":    "",
+    "bootloader_elf":     "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "build_type":         "flash_app",
+    "git_revision":       "HEAD-HASH-NOTFOUND",
+    "target":             "esp32",
+    "rev":                "0",
+    "min_rev":            "0",
+    "max_rev":            "399",
+    "phy_data_partition": "",
+    "monitor_baud" :      "115200",
+    "monitor_toolprefix": "xtensa-esp32-elf-",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : "/home/esp/espressif/esp-idf/components/efuse/Kconfig;/home/esp/espressif/esp-idf/components/esp_common/Kconfig;/home/esp/espressif/esp-idf/components/esp_hw_support/Kconfig;/home/esp/espressif/esp-idf/components/esp_system/Kconfig;/home/esp/espressif/esp-idf/components/freertos/Kconfig;/home/esp/espressif/esp-idf/components/hal/Kconfig;/home/esp/espressif/esp-idf/components/log/Kconfig;/home/esp/espressif/esp-idf/components/newlib/Kconfig;/home/esp/espressif/esp-idf/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "/home/esp/espressif/esp-idf/components/bootloader/Kconfig.projbuild;/home/esp/espressif/esp-idf/components/esp_app_format/Kconfig.projbuild;/home/esp/espressif/esp-idf/components/esp_rom/Kconfig.projbuild;/home/esp/espressif/esp-idf/components/esptool_py/Kconfig.projbuild;/home/esp/espressif/esp-idf/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp_app_format", "esp_common", "esp_hw_support", "esp_rom", "esp_system", "esptool_py", "freertos", "hal", "log", "main", "micro-ecc", "newlib", "partition_table", "soc", "spi_flash", "xtensa", "" ],
+    "build_component_paths" : [ "/home/esp/espressif/esp-idf/components/bootloader", "/home/esp/espressif/esp-idf/components/bootloader_support", "/home/esp/espressif/esp-idf/components/efuse", "/home/esp/espressif/esp-idf/components/esp_app_format", "/home/esp/espressif/esp-idf/components/esp_common", "/home/esp/espressif/esp-idf/components/esp_hw_support", "/home/esp/espressif/esp-idf/components/esp_rom", "/home/esp/espressif/esp-idf/components/esp_system", "/home/esp/espressif/esp-idf/components/esptool_py", "/home/esp/espressif/esp-idf/components/freertos", "/home/esp/espressif/esp-idf/components/hal", "/home/esp/espressif/esp-idf/components/log", "/home/esp/espressif/esp-idf/components/bootloader/subproject/main", "/home/esp/espressif/esp-idf/components/bootloader/subproject/components/micro-ecc", "/home/esp/espressif/esp-idf/components/newlib", "/home/esp/espressif/esp-idf/components/partition_table", "/home/esp/espressif/esp-idf/components/soc", "/home/esp/espressif/esp-idf/components/spi_flash", "/home/esp/espressif/esp-idf/components/xtensa", "" ],
+    "debug_prefix_map_gdbinit": ""
+}
